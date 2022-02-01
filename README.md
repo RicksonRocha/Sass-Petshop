@@ -1,25 +1,20 @@
-# Alura Cursos
-## Sass: O CSS com superpoderes
+<h1>Sass Petshop</h1>
+<h2>O que é esse projeto?</h2>
+<p>Projeto desenvolvido durante curso Sass da Alura. O principal objeto era conhecer as potencialidades do Sass.</p>
+<ol>
+  <li>Variáveis</li>
+  <li>Nesting (Agrupamento) e Parent Selector (&)</li>
+  <li>Metodologia BEM</li>
+  <li>At Rules, Placeholder Selector (%) e Extend, Mixins e Include, Function, condicionais e loops</li>
+  <li>External API and interface</li>
+</ol>
+<h2>Tecnologias usadas:</h2>
+<ul>
+  <li>Sass</li>
+  <li>NPM</li>
+  <li>Media Querys</li>
+</ul>
 
-Faça esse curso de HTML e CSS e:
-- Descubra as vantagens de utilizar o pré-processador mais conhecido no mundo
-- Use variáveis em seu código CSS
-- Aprenda a estender seu CSS e evitar repetições
-- Facilite a manutenção da folha de estilo
-- Implemente funções e lógica na estilização do seu site
-- Torne o site responsivo de maneira simples e reutilizável
-
-## Preparando o Ambiente
-
-Para este curso, precisaremos instalar algumas ferramentas — caso você ainda não tenha feito isso anteriormente:
-
-##### NodeJS: 
-Se você já fez outros cursos dessa formação, o NodeJS já deve estar instalado. você pode conferir com o comando 
-````node --version ou node -v ```` no terminal. Caso retorne um número de versão, como por exemplo, v10.16.0, o NodeJS já está instalado. Caso precise instalar, os links estão na [página oficial do NodeJS](https://nodejs.org/en/download/).
-
-##### Visual Studio Code: 
-Caso precise instalar, os links estão na [página do Visual Studio](https://code.visualstudio.com/download).
-
-### Comandos
-npm install -D sass
-sass --watch style.scss:../css/style.css
+### Por onde começar ?
+<p><code>npm install -D sass</code> para instalação do sass usando o gerenciador de pacotes do Node.js.</p>
+<p><code>sass --watch style.scss:../css/style.css</code> para compilar os arquivos sass em css.</p>
