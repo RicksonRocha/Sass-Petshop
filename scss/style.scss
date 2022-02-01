@@ -1,13 +1,17 @@
-/// Estas variaveis se referem as cores principais do nosso blog
+/// Variáveis
 $purple: #A050BE;
 $light-grey: #eaeaeb;
 $dark-grey: #464646;
 $yellow: #FABE50;
 $img-width: 45%;
 
+
+//Placeholders Selectors
 %no-decoration {text-decoration: none;}
 %u-decoration {text-decoration: underline;}
 
+
+//At Rules
 @mixin reset-list {
     margin: 0;
     padding: 0;
@@ -170,6 +174,9 @@ $layout-margin-size: 10px;
     }
 
     &__sidebar {
+        @include for-phone-only {
+            width: 100%;
+        }
         width: 25%;
         padding: 40px 10px;
     }
